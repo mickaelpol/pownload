@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+/*** PARTIE 1 ***/
+body{
+   margin: 0 auto;
+    
+   max-width: 1920px;
+   max-width: 1080px;
+    
+   background-image: url("F:/entrainement photoshop/Site de téléchargement/intégration/image/test 1 2 test opacité reduite.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: bottom;
+   background-color: #1F263B;
+}
+
+/*Background transparent*/
+.block{
+    margin-top: 20px;
+    padding: 30px 40px 15px 40px;
+     
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    border-radius:8px;
+    border:1px solid #fff;
+}
+/*Boutons*/
+.btn-primary{
+   background-color: #1d5997;
+   border-color: #2e6da4;
+   width: 115px;
+}
+
+.btn-default{
+   background-color: #1f2c3d;
+   border-color: #32445d;
+   color:#fff;
+   width: 115px;
+}
+/*input*/
+.form-control{
+    background-color: #12151c;
+    color: #5d564b;
+    border:none;
+    border-left: 1px solid #5d564b;
+    
+     
+    
+}
+.input-group-addon {
+   background-color: #12151c;
+   color: #5d564b;
+   border:none;
+}
+
+/*** PARTIE 2 ***/
+
+
+
+#success {
+    width: 242px;
+    margin-top: 300px;
+    line-height:40px;
+    color:#fff; 
+    font-size:1.7em;
+    padding: 10px 0 10px 10px;
+   
+  }
+#success p{
+    margin-right: 2%;
+    margin-bottom: 0;
+}
+/*Gif*/
+#dv_loading {
+    background:url(../img/48494.gif) no-repeat center center ;
+    position: fixed;
+    z-index: 1000;
+    left: 40%;
+    right: 50%;
+    top:40%;
+    width: 380px;
+    height: 464px; 
+    border-radius: 10px;
+   
+}
+
+

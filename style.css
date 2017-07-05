@@ -1,0 +1,274 @@
+/* RESET CSS */
+
+body,div,fieldset,input,img,a,a:hover,select,li ,ul, p, h1, h2, h4, h5, h6, iframe
+{
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration:none;
+	outline:none;
+	list-style:none;
+	vertical-align:bottom;
+	white-space:normal;
+}
+
+/* police perso */
+@font-face {
+    font-family: 'capture_itregular';
+    src: url('Capture_it-webfont.eot');
+    src: url('Capture_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Capture_it-webfont.woff') format('woff'),
+         url('Capture_it-webfont.ttf') format('truetype'),
+         url('Capture_it-webfont.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+/* CENTRAGE */
+
+.global {width:80% !important; position:relative; z-index:1; margin:auto;}
+
+
+/* ANIMATION */
+
+.anim 
+ {-khtml-transition: 0.4s; -ie-transition: 0.4s; -o-transition: 0.4s; -moz-transition: 0.4s; -webkit-transition: 0.4s; transition: 0.4s;
+ }
+
+
+/* CLEAR */
+
+.clear {clear: both;}
+
+/* BODY */
+
+body {
+background-color: #1F263B ; background-image: url("image/test 1 2 test opacité reduite.png");
+background-attachment: fixed;
+background-position: bottom;
+background-repeat: no-repeat;}
+
+
+/* HEADER */
+.nomdusite {font-family: "capture_itregular", serif; position: absolute; text-transform: uppercase; width: 100%; padding-top: 100px; padding-left: 40px; color:#C54912; font-size: 4em;
+text-shadow: #FFF 1px 1px, #FFF -1px 1px, #FFF -1px -1px, #FFF 1px -1px;}
+header img {padding-top: 30px; float: left;}
+header  ul  {float: right; margin-top: 55px;}
+header  ul li {display: inline-block; font-family: 'Open Sans'; font-size: 1em; text-transform: uppercase; margin-left: 30px; font-weight: 400; text-shadow: 5px 10px 10px #F96623; }
+header  ul li a {color: #F96623;}
+header  ul li:hover {font-weight: 700; text-decoration: overline;}
+header  ul li a:hover {color:white;}
+header h1 {font-family: 'Open Sans'; font-size: 1.7em; color: #FFF; font-weight: 700; text-transform: uppercase; margin: 3% 0; float: left;}
+span {font-weight: 700; color: #FFF;}
+h1 {background: #2790f7; border-radius: 5px;
+box-shadow: 5px 10px 10px black; text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;}
+header .rs {margin: 1.7% 0;}
+header .rs li {margin-left: 8px;}
+h2 {font-family: "open sans"; font-size: 1.3em; color: #FFF; font-weight: 700; text-transform: uppercase; text-decoration: underline; margin: 1% 0;
+text-shadow: 5px 10px 10px white;}
+
+
+
+/* TV */ /* COMPTEUR*/
+
+.player {width: 75%; height: 600px; margin-right: -4px; margin-bottom: 3%;}
+.chat {width: 25%; height: 600px;margin-bottom: 3%;}
+#counter {float: right; font-family: "open sans"; font-size: 1.3em; color: #FFF; font-weight: 400; text-transform: uppercase; margin-top: 10px; margin-bottom: 3%;
+background-color:#2790f7; box-shadow:2px 10px 10px black; border-radius: 5px;}
+#nuit {margin-bottom: 3%; margin-top: 3%;}
+
+
+
+/* BOUTON NUIT */
+.btnnuit {display: inline-block; width: 250px; height: 60px; font-family: 'Open Sans'; font-size: 1em; color: #FFF; text-align: center; line-height: 60px; text-transform: uppercase; font-weight: 700;
+background: width: 250px; height: 60px; font-family: 'Open Sans'; font-size: 1em; color: white; text-align: center; line-height: 60px; text-transform: uppercase; font-weight: 700;
+background: #2790f7; border-radius: 50%; margin-bottom: 3%; text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;}
+.btnnuit:hover {border: 1px black inset; border-radius: 50%; margin-bottom: 3%; box-shadow: 2px 10px 10px black;}
+
+/* a propos */
+
+#about p {font-family: "open sans";
+font-size: 1em;
+color: #FFF;
+text-align: center;
+margin-top: 3%;
+text-align: justify;}
+
+/* CONTACT */
+
+
+h3{font-family: "Open Sans";
+font-size: 1.7em;
+color: #FFF;
+font-weight: 300;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+margin-bottom: 3%;
+margin-top: 3%;
+text-decoration: underline;
+text-shadow: 10px 15px 10px white;}
+
+#bouton a {border: 1px solid black;
+font-family: "Open Sans";
+font-size: 2em; color: white; text-shadow:#000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 3%;
+display: flex;
+justify-content: center;
+width: 20%; margin:auto; background-color: #2790f7; border-radius: 50px;}
+#bouton a:hover {box-shadow: 2px 10px 10px black; border-radius: 50px;}
+
+
+
+
+/* Formulaire de contact */
+
+label {font-family: "open sans";
+font-size: 1.7em;
+color: #000;
+font-weight: 300;
+display: flex;
+justify-content: center;
+margin: 5% 0 0 0;}
+
+#nom {font-family: "open sans";
+font-size: 16;
+color: #000;
+font-weight: 100;
+display: flex;
+justify-content: center;}
+
+#text {width: 10%;
+height: 50px;
+margin-right: 3px;
+margin-bottom: 3%;
+}
+
+
+
+/* footer*/
+
+footer {display: flex; position: relative; justify-content: center;}
+footer p {position: absolute; text-align: center; font-family: "open sans"; font-size: 1em; color: #000; margin-top:3%; margin-bottom: 5%; margin-left: 0%; margin-right: 0%}
+
+/*Bouton haut de la page */
+
+.Ancre img {position: absolute; height: 60px; width: 60px; right: 250px; margin-top: 3%;}
+.Ancre :hover {border: 1px inset black; border-radius: 50%; box-shadow: 5px 10px 15px black;}
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+ 
+    header ul
+    {
+        display: flex;
+        width: auto;
+        text-align: right;
+        flex-direction: column;
+    }
+    
+    header ul li
+    {
+        text-shadow: none;
+    }
+    
+    header  ul li:hover {font-weight: 700; text-decoration: none;
+    }
+    
+    header .rs 
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header h1 
+    {font-family: 'Open Sans'; font-size: 1.1em; color: #FFF; font-weight: 700; text-transform: uppercase; margin: 3% 0; float: left;
+    }
+    
+    .btnnuit {display: inline-b; width: 100px; height: 60px; font-family: 'Open Sans'; font-size: 1em; color: #FFF; text-align: center; line-height: 60px; text-transform: uppercase; font-weight: 700;
+    background: width: 250px; height: 60px; font-family: 'Open Sans'; font-size: 1em; color: white; text-align: center; line-height: 60px; text-transform: uppercase; font-weight: 700;
+    background: #2790f7; border-radius: 50%; margin-bottom: 3%; text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    }
+    
+    #counter {float: right; width: 40%; font-family: "open sans"; font-size: 0.7em; color: #FFF; font-weight: 400; text-transform: uppercase; margin-top: 10px; margin-bottom: 3%;
+    background-color:#2790f7; box-shadow:2px 10px 10px black; border-radius: 5px;
+    }
+    
+    .player {width: 75%; height: 200px; margin-right: -4px; margin-bottom: 3%;}
+    .chat {width: 25%; height: 200px;margin-bottom: 3%;}
+    
+    #about p
+    {
+    width: 100%;
+    height: 150px;
+    font-family: "open sans";
+    font-size: 1em;
+    color: #FFF;
+    text-align: center;
+    margin-top: 3%;
+    text-align: justify;
+    overflow: auto;
+    }
+    
+    
+    
+    
+
+    
+    
+}
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
